@@ -1,0 +1,30 @@
+$ python -m unittest discover -s tests -p test_*.py -v
+Exit code: 0
+
+test_coverage (test_pipeline.PipelineTests.test_coverage) ... ok
+test_metrics_known (test_pipeline.PipelineTests.test_metrics_known) ... ok
+test_no_imputation (test_pipeline.PipelineTests.test_no_imputation) ... ok
+test_persistence_shift (test_pipeline.PipelineTests.test_persistence_shift) ... ok
+test_signal_boundaries (test_pipeline.PipelineTests.test_signal_boundaries) ... ok
+test_test_sizes_and_metrics (test_pipeline.PipelineTests.test_test_sizes_and_metrics) ... ok
+test_train_only_thresholds (test_pipeline.PipelineTests.test_train_only_thresholds) ... ok
+test_units (test_pipeline.PipelineTests.test_units) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.186s
+
+OK
+
+
+$ python verify_app.py
+Exit code: 0
+PASS view: Overview
+PASS view: Heat Intelligence
+PASS view: Rain Intelligence
+PASS view: Combined Insights
+PASS view: Evaluation
+PASS view: Data & Method
+PASS filter 2024–2025: 731 days; Combined view reload.
+PASS all app checks.
+
+2026-10-22 21:40:50.023 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.

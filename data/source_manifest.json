@@ -1,0 +1,51 @@
+{
+  "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MAX,T2M_MIN,T2M,PRECTOTCORR&community=AG&longitude=72.8777&latitude=19.0760&start=20150101&end=20251231&format=JSON&time-standard=LST",
+  "accessed_utc": "2026-10-22T15:44:23.878Z",
+  "coordinates_requested": {
+    "latitude": 19.076,
+    "longitude": 72.8777
+  },
+  "description": "Single representative grid cell, not Mumbai administrative boundary or station observations",
+  "header": {
+    "title": "NASA/POWER Source Native Resolution Daily Data",
+    "api": {
+      "version": "v2.10.1",
+      "name": "POWER Daily API"
+    },
+    "sources": [
+      "MERRA2",
+      "POWER"
+    ],
+    "fill_value": -999,
+    "time_standard": "LST",
+    "start": "20150101",
+    "end": "20251231"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      72.878,
+      19.076,
+      97.15
+    ]
+  },
+  "parameters": {
+    "T2M_MAX": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters Maximum"
+    },
+    "T2M_MIN": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters Minimum"
+    },
+    "T2M": {
+      "units": "C",
+      "longname": "Temperature at 2 Meters"
+    },
+    "PRECTOTCORR": {
+      "units": "mm/day",
+      "longname": "Precipitation Corrected"
+    }
+  },
+  "sha256": "1c3602bd24aa0893390b41a25a77f7820b7625f4832f2d79ce91a3111738832e"
+}

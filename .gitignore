@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+
+# Test and notebook cache
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db

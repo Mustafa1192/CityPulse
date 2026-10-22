@@ -1,0 +1,66 @@
+CityPulse
+Urban Heat & Rainfall Risk Intelligence
+HackAMatch 1.0 — Project Problem Statement & Team Work Split
+1. Problem Statement
+Urban areas experience changing temperature and rainfall patterns that can create risks for residents and disrupt city operations. However, historical weather observations and other public urban datasets are not always translated into actionable information about when and where attention is needed.
+This project aims to develop a data-driven decision-support system that analyzes publicly available weather and urban data to identify heat and rainfall patterns, assess potential risk periods, explain the evidence behind identified risks, and recommend practical actions for urban authorities and communities.
+2. Project Objectives
+Analyze historical temperature and rainfall patterns for a selected city and study period.
+Identify unusually hot periods and rainfall patterns associated with potential urban disruption.
+Compare locations or time periods where suitable public data supports the comparison.
+Present findings through understandable charts, risk indicators, and evidence-based recommendations.
+Evaluate any forecast or risk-scoring method and clearly communicate uncertainty and limitations.
+3. Research Questions
+What temperature and rainfall patterns are visible in the selected city and study period?
+Can historical weather data help identify periods of elevated heat or rainfall-related risk?
+Which locations or periods should be prioritized based on the available evidence?
+What practical interventions could help address the identified risks?
+4. Proposed Solution
+Build a dashboard with two connected analytical modules: Heat Intelligence and Rain Intelligence. Users can explore historical patterns, view evidence-backed findings, and see risk indicators or forecasts only where the available data supports them. A combined view can help compare heat and rainfall signals and communicate practical next steps.
+Suggested prototype stack: Python, Pandas, NumPy, Matplotlib/Plotly, and Streamlit. Use public datasets only; no paid APIs or paid services should be required for core functionality.
+5. Division of Work — Three Team Members
+Person 1 — Data Collection & Preparation
+Define the city, geographic scope, and study period with the team.
+Find suitable free public datasets for temperature and rainfall; verify access, coverage, terms, and licence.
+Download and document source URLs, access dates, fields, and attribution requirements.
+Clean and merge the data where appropriate; handle missing values, duplicates, outliers, and date formats.
+Deliver a clean, documented dataset and a short data-preparation report.
+Deliverables: raw-data folder, cleaned dataset, data dictionary, source/limitations notes.
+Person 2 — Analysis & Risk Method
+Perform exploratory data analysis for both heat and rainfall.
+Produce at least three useful findings supported by charts or summaries.
+Establish a simple baseline or transparent risk-scoring rule before attempting complex modelling.
+If forecasting is feasible, use chronological validation and compare results with a baseline.
+Report appropriate evaluation results, uncertainty, assumptions, and limitations.
+Deliverables: analysis notebook, charts, method explanation, evaluation and limitations.
+Person 3 — Dashboard, Integration & Demo
+Build the Streamlit dashboard structure and navigation.
+Create Heat, Rainfall, and Combined Insights views using the outputs from Persons 1 and 2.
+Display location/time scope, key signals, supporting evidence, risk estimates where justified, and practical next steps.
+Integrate the cleaned data and analytical outputs; test the app from a fresh run.
+Prepare screenshots/backup demo, setup instructions, and the product walkthrough.
+Deliverables: runnable dashboard, setup instructions, demo flow, and backup screenshots.
+6. Shared Responsibilities
+All three members review the problem framing, findings, and final recommendations.
+Agree on the city, study period, dataset fields, and definitions before implementation diverges.
+Keep the core prototype reproducible without paid services, private datasets, or secret keys.
+Do not present synthetic data as real evidence or claim that weather data alone proves street-level flooding or heat exposure.
+Prepare a concise presentation covering the problem, data, strongest insight, method, evaluation, demo, and limitations.
+7. Minimum Viable Product (MVP)
+A cleaned public dataset with documented sources and transformations.
+At least three evidence-based findings across the selected heat and rainfall scope.
+A transparent analytical method and evaluation appropriate to the available data.
+A working dashboard with charts, key signals, evidence, and practical recommendations.
+Clear assumptions, uncertainty, limitations, and reproducibility instructions.
+8. Data & Integrity Notes
+The CityPulse brief encourages public, reproducible data and evidence-led analysis. Candidate starting points include the India Open Government Data Platform (data.gov.in) and India Meteorological Department (mausam.imd.gov.in); verify that suitable datasets are actually available for the chosen city and period. The brief does not guarantee that every desired variable will be available.
+Temperature and rainfall observations alone cannot establish street-level flood occurrence or neighborhood-level heat exposure. Such claims require suitable supporting data. Clearly distinguish observed conditions from estimated risk, and do not claim to predict future events unless evaluation supports the claim.
+9. Suggested Workflow
+Step 1: Agree on city, scope, study period, and target user.
+Step 2: Verify data availability before finalizing features.
+Step 3: Clean the data and agree on shared data formats.
+Step 4: Complete exploratory analysis and choose a defensible baseline/method.
+Step 5: Build and integrate the dashboard.
+Step 6: Validate outputs, document limitations, rehearse the demo, and prepare the presentation.
+
+Predict. Explain. Act.

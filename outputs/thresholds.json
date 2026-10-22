@@ -1,0 +1,9 @@
+{
+  "heat_p90_c": 39.27,
+  "heat_p95_c": 40.193999999999996,
+  "rain_wet_p95_mm": 73.65949999999997,
+  "rain_wet_p99_mm": 117.89959999999999,
+  "fit_start": "2015-01-01",
+  "fit_end": "2021-12-31",
+  "wet_day_definition": "rain_mm >= 1.0; analytical convention, not an official warning"
+}

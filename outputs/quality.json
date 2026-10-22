@@ -1,0 +1,16 @@
+{
+  "expected_days": 4018,
+  "actual_days": 4018,
+  "missing_by_variable": {
+    "tmax_c": 0,
+    "tmin_c": 0,
+    "tmean_c": 0,
+    "rain_mm": 0
+  },
+  "duplicate_days": 0,
+  "imputation": "None",
+  "outlier_handling": "Retain plausible extremes; fail on physical inconsistencies",
+  "raw_sha256": "1c3602bd24aa0893390b41a25a77f7820b7625f4832f2d79ce91a3111738832e",
+  "start": "2015-01-01",
+  "end": "2025-12-31"
+}
